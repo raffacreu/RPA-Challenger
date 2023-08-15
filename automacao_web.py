@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 import time
 import openpyxl
 
-planilha = openpyxl.load_workbook("C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\PRG\\python\\challenge.xlsx")
+planilha = openpyxl.load_workbook("C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\PRG\\python\\RPA-Challenger\\challenge.xlsx")
 tabela = planilha["Sheet1"]
 
 #Abrindo Edge e navegando até a pagina
